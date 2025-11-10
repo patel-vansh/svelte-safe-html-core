@@ -42,9 +42,6 @@ export function findUnsafeHtml(code, filename, ignoreFunctions = [], runes = fal
         };
     }
 
-    console.log(JSON.stringify(ast)); // --- DEBUG ---
-    console.log(JSON.stringify(ast.html)); // --- DEBUG ---
-
     warnings = checkNodeForUnsafeHtml(ast.html, filename, ignoreFunctions);
 
     return {
