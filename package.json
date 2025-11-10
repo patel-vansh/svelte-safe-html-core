@@ -1,0 +1,59 @@
+{
+  "name": "@svelte-safe-html/core",
+  "version": "1.0.0",
+  "description": "A zero-dependency utility that detects unsafe HTML in Svelte components across versions 3, 4, and 5.",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.js"
+    }
+  },
+  "keywords": [
+    "svelte",
+    "security",
+    "html",
+    "sanitization",
+    "lint",
+    "safe-html",
+    "xss",
+    "svelte3",
+    "svelte4",
+    "svelte5"
+  ],
+  "author": {
+    "name": "Vansh Patel",
+    "url": "https://github.com/patel-vansh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patel-vansh/svelte-safe-html-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patel-vansh/svelte-safe-html-core/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "svelte": ">=3 <6"
+  },
+  "scripts": {
+    "test:all": "node tests/run-all.js"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.8"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
