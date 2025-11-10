@@ -2,11 +2,9 @@ name: Test
 
 on:
   push:
-    branches:
-      main
+    branches: [main]
   pull_request:
-    branches:
-      main
+    branches: [main]
 
 jobs:
   test:
@@ -17,21 +15,22 @@ jobs:
       fail-fast: false
 
     steps:
-      - name: Checkout repo
+      - name: 🧾 Checkout repo
         uses: actions/checkout@v5
 
-      - name: Setup Node.js
+      - name: ⚙️ Setup Node.js
         uses: actions/setup-node@v5
         with:
-          node-version: 24
+          node-version: 22
+          cache: 'npm'
 
-      - name: Install dependencies
-        run: |
-          npm ci
-          cd tests/${{ matrix.svelte-version }}
-          npm install
-
-      - name: Run tests
+      - name: 📦 Install dependencies
         run: |
           cd tests/${{ matrix.svelte-version }}
-          npm test --no-watch
+          rm -rf node_modules package-lock.json
+          npm install --no-fund --no-audit
+
+      - name: 🧪 Run tests
+        run: |
+          cd tests/${{ matrix.svelte-version }}
+          npm test
