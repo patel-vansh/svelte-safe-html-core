@@ -4,7 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@svelte-safe-html/core.svg?color=33cd56)](https://www.npmjs.com/package/@svelte-safe-html/core)
 [![License](https://img.shields.io/npm/l/@svelte-safe-html/core.svg)](LICENSE)
-[![Tests](https://github.com/patel-vansh/svelte-safe-html-core/actions/workflows/test.yml/badge.svg)](https://github.com/patel-vansh/svelte-safe-html-core/actions)
+[![Tests](https://github.com/patel-vansh/svelte-safe-html-core/actions/workflows/tests.yml/badge.svg)](https://github.com/patel-vansh/svelte-safe-html-core/actions)
 
 ## ✨ Overview
 
