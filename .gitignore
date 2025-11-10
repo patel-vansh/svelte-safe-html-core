@@ -1,12 +1,16 @@
-# Ignore node modules
-node_modules/
+# Node
+node_modules
+npm-debug.log*
+package-lock.json
 
-# Ignore build outputs
-dist/
-build/
+# Tests
+coverage
+.vitest
 
-# Ignore environment variable files
-.env
-
-# Ignore system files
+# OS files
 .DS_Store
+Thumbs.db
+
+# IDE stuff
+.vscode
+.idea
