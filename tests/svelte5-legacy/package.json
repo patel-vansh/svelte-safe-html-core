@@ -1,0 +1,12 @@
+{
+    "name": "@svelte-safe-html/tests-svelte5-legacy",
+    "private": true,
+    "type": "module",
+    "devDependencies": {
+        "vitest": "^4.0.8",
+        "svelte": "^5"
+    },
+    "scripts": {
+        "test": "npx vitest --no-watch"
+    }
+}
