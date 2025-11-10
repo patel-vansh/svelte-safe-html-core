@@ -1,0 +1,37 @@
+name: Test
+
+on:
+  push:
+    branches:
+      main
+  pull_request:
+    branches:
+      main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        svelte-version: [svelte3, svelte4, svelte5-legacy]
+      fail-fast: false
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          cd tests/${{ matrix.svelte-version }}
+          npm install
+
+      - name: Run tests
+        run: |
+          cd tests/${{ matrix.svelte-version }}
+          npm test --no-watch
