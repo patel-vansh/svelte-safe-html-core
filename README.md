@@ -3,7 +3,7 @@
 > 🔒 Detect unsafe `{@html}` usages in Svelte components — compatible with Svelte 3, 4, and 5 (legacy mode).
 
 [![npm version](https://img.shields.io/npm/v/@svelte-safe-html/core.svg?color=33cd56)](https://www.npmjs.com/package/@svelte-safe-html/core)
-[![License](https://img.shields.io/npm/l/@svelte-safe-html/core.svg)](LICENSE)
+[![License](https://img.shields.io/npm/l/@svelte-safe-html%2fcore.svg)](LICENSE)
 [![Tests](https://github.com/patel-vansh/svelte-safe-html-core/actions/workflows/test.yml/badge.svg)](https://github.com/patel-vansh/svelte-safe-html-core/actions)
 
 ## ✨ Overview
