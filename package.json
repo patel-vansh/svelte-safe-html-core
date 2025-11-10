@@ -1,6 +1,6 @@
 {
   "name": "@svelte-safe-html/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A zero-dependency utility that detects unsafe HTML in Svelte components across versions 3, 4, and 5.",
   "type": "module",
   "main": "src/index.js",
