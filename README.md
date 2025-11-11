@@ -31,7 +31,7 @@ pnpm add -D @svelte-safe-html/core
 ```
 ---
 
-Since Svelte is a peer dependency, make sure it’s installed in your project:
+Since Svelte is added as a peer dependency, make sure it’s installed in your project:
 ```bash
 npm install svelte
 ```
