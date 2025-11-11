@@ -1,0 +1,19 @@
+{
+    "filename": "InsideIf.svelte",
+    "parsed": true,
+    "error": null,
+    "warnings": [
+        {
+            "filename": "InsideIf.svelte",
+            "message": "Unsafe raw HTML insertion without sanitizer",
+            "start": {
+                "line": 7,
+                "column": 15
+            },
+            "end": {
+                "line": 7,
+                "column": 39
+            }
+        }
+    ]
+}

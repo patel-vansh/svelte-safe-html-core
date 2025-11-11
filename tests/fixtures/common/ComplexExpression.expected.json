@@ -1,0 +1,43 @@
+{
+    "filename": "ComplexExpression.svelte",
+    "parsed": true,
+    "error": null,
+    "warnings": [
+        {
+            "filename": "ComplexExpression.svelte",
+            "message": "Unsafe raw HTML insertion without sanitizer",
+            "start": {
+                "line": 6,
+                "column": 11
+            },
+            "end": {
+                "line": 6,
+                "column": 22
+            }
+        },
+        {
+            "filename": "ComplexExpression.svelte",
+            "message": "Unsafe raw HTML insertion without sanitizer",
+            "start": {
+                "line": 7,
+                "column": 11
+            },
+            "end": {
+                "line": 7,
+                "column": 29
+            }
+        },
+        {
+            "filename": "ComplexExpression.svelte",
+            "message": "Unsafe raw HTML insertion without sanitizer",
+            "start": {
+                "line": 8,
+                "column": 11
+            },
+            "end": {
+                "line": 8,
+                "column": 36
+            }
+        }
+    ]
+}
