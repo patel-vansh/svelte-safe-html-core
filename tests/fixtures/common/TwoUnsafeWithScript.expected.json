@@ -1,0 +1,31 @@
+{
+    "filename": "TwoUnsafeWithScript.svelte",
+    "parsed": true,
+    "error": null,
+    "warnings": [
+        {
+            "filename": "TwoUnsafeWithScript.svelte",
+            "message": "Unsafe raw HTML insertion without sanitizer",
+            "start": {
+                "line": 5,
+                "column": 10
+            },
+            "end": {
+                "line": 5,
+                "column": 28
+            }
+        },
+        {
+            "filename": "TwoUnsafeWithScript.svelte",
+            "message": "Unsafe raw HTML insertion without sanitizer",
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "end": {
+                "line": 8,
+                "column": 48
+            }
+        }
+    ]
+}

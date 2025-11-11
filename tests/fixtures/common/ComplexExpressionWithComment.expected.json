@@ -1,0 +1,19 @@
+{
+    "filename": "ComplexExpressionWithComment.svelte",
+    "parsed": true,
+    "error": null,
+    "warnings": [
+        {
+            "filename": "ComplexExpressionWithComment.svelte",
+            "message": "Unsafe raw HTML insertion without sanitizer",
+            "start": {
+                "line": 10,
+                "column": 11
+            },
+            "end": {
+                "line": 10,
+                "column": 36
+            }
+        }
+    ]
+}

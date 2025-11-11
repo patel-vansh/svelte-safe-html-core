@@ -1,0 +1,19 @@
+{
+    "filename": "Multiline.svelte",
+    "parsed": true,
+    "error": null,
+    "warnings": [
+        {
+            "filename": "Multiline.svelte",
+            "message": "Unsafe raw HTML insertion without sanitizer",
+            "start": {
+                "line": 3,
+                "column": 8
+            },
+            "end": {
+                "line": 3,
+                "column": 34
+            }
+        }
+    ]
+}
