@@ -5,9 +5,10 @@
   "type": "module",
   "main": "src/index.js",
   "module": "src/index.js",
-  "types": "types/index.d.ts",
+  "types": "src/index.d.ts",
   "exports": {
     ".": {
+      "types": "./src/index.d.ts",
       "import": "./src/index.js",
       "require": "./src/index.js"
     }
@@ -50,8 +51,7 @@
     "README.md",
     "LICENSE",
     "*.d.ts",
-    "!src/**/*.test.*",
-    "!src/**/*.d.ts"
+    "!src/**/*.test.*"
   ],
   "engines": {
     "node": ">=18"
