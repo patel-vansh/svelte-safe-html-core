@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 (2026-01-08)
+### Changed
+- Relocated type definitions from `types/index.d.ts` to `src/index.d.ts` for better co-location with source files.
+- Updated `package.json` to properly expose types via the `exports` field and adjusted the `files` whitelist.
+
 ## 1.0.4 (2025-11-11)
 ### Changed
 - The version of @rollup dependencies to **4.53.2** in package-lock.json files of [svelte3/package-lock.json](tests/svelte3/package-lock.json), [svelte4/package-lock.json](tests/svelte4/package-lock.json) and [svelte5-legacy/package-lock.json](tests/svelte5-legacy/package-lock.json)
