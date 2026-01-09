@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.5 (2026-01-08)
+## 1.0.5 (2026-01-09)
 ### Changed
 - Relocated type definitions from `types/index.d.ts` to `src/index.d.ts` for better co-location with source files.
 - Updated `package.json` to properly expose types via the `exports` field and adjusted the `files` whitelist.
