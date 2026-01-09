@@ -60,7 +60,7 @@ npm run test:all
 ```
 
 ### 6. Commit Conventions
-We follow the Conventional Commits specification.
+We follow the Conventional Commits specification. This is **NOT** strictly enforced but helps maintain a clean and understandable commit history.
 
 Format: `<type>(<scope>): <subject>`
 
