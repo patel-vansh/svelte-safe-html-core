@@ -1,13 +1,14 @@
 {
   "name": "@svelte-safe-html/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A zero-dependency utility that detects unsafe HTML in Svelte components across versions 3, 4, and 5.",
   "type": "module",
   "main": "src/index.js",
   "module": "src/index.js",
-  "types": "types/index.d.ts",
+  "types": "src/index.d.ts",
   "exports": {
     ".": {
+      "types": "./src/index.d.ts",
       "import": "./src/index.js",
       "require": "./src/index.js"
     }
@@ -50,8 +51,7 @@
     "README.md",
     "LICENSE",
     "*.d.ts",
-    "!src/**/*.test.*",
-    "!src/**/*.d.ts"
+    "!src/**/*.test.*"
   ],
   "engines": {
     "node": ">=18"
