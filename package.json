@@ -51,6 +51,7 @@
     "src",
     "README.md",
     "LICENSE",
+    "CHANGELOG.md",
     "*.d.ts",
     "!src/**/*.test.*"
   ],
