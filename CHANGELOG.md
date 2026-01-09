@@ -18,7 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Unreleased section in [CHANGELOG.md](CHANGELOG.md) for upcoming changes.
 
 ### Changed
-- 
+- Changed `actions/setup-node` from v5 to v6 in the [test.yml](.github/workflows/test.yml) workflow file in [#17](https://github.com/patel-vansh/svelte-safe-html-core/pull/17).
+- Changed `actions/checkout` from v5 to v6 in the [test.yml](.github/workflows/test.yml) workflow file in [#18](https://github.com/patel-vansh/svelte-safe-html-core/pull/18).
 
 ### Deprecated
 - 
