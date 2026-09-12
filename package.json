@@ -45,7 +45,7 @@
     "test:all": "node tests/run-all.js"
   },
   "devDependencies": {
-    "vitest": "^4.0.8"
+    "vitest": "^5.0.0"
   },
   "files": [
     "src",
